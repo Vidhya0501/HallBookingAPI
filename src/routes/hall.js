@@ -10,6 +10,4 @@ router.get('/customers',HallController.getAllCustomers)
 router.get('/customer/:name',HallController.getBookingCountByCustomer)
 
 
-
-
 module.exports = router
